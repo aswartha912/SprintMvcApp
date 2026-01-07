@@ -1,4 +1,4 @@
-package net.springboot.javaguides.controller;
+package net.springmvc.crud.controller;
 
 import jakarta.validation.Valid;
 
@@ -6,14 +6,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import net.springboot.javaguides.entity.Student;
-import net.springboot.javaguides.repository.StudentRepository;
+import net.springmvc.crud.entity.Student;
+import net.springmvc.crud.repository.StudentRepository;
 
 @Controller
 @RequestMapping("/students/")

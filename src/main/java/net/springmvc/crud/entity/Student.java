@@ -1,4 +1,4 @@
-package net.springboot.javaguides.entity;
+package net.springmvc.crud.entity;
 
 import jakarta.persistence.*;
 
